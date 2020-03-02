@@ -1,0 +1,39 @@
+.got-image{
+  position: relative;
+}
+
+.text{
+  
+  background-color: rgba(0,0,0,0.5);
+}
+
+.main-image{
+  display: block;
+  width:100%;
+}
+
+.cs-overlay
+{ 
+  position: absolute; 
+  bottom: 0; 
+  top:0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.62); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cs-location
+{ 
+  position: absolute; 
+  bottom: 0; 
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
