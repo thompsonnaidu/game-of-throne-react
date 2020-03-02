@@ -51,7 +51,7 @@ router.get('/search',async (req,res)=>{
         }
         console.log(searchQuery);
         const battle_list= await Battle.find(searchQuery);
-        res.json({count:battle_list.length,battles:battle_list});
+        res.json({battles:battle_list});
     }catch(error){
         console.log(error);
         res.status(500).send("server failure");
