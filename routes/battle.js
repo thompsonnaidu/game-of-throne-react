@@ -58,4 +58,27 @@ router.get('/search',async (req,res)=>{
     }
 
 });
+
+//
+router.get('*',(req,res)=>{
+    res.json({
+        api:"Welcome to battle api",
+        base_url:'/api/battle',
+        endpoints:[{
+            url:'/list',
+            desc:'get list of all place where battle has taken place',
+            method:'GET'
+        },
+        {
+            url:'/count',
+            desc:'get total number of battle occured',
+            method:'GET'
+        },
+        {
+            url:'/search',
+            desc:'get the data with all applied filters for king,type and location',
+            method:'GET'
+        }]
+    });
+});
 module.exports=router;

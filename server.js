@@ -13,9 +13,6 @@ app.use(bodyParser.json());
 
 // Define Routes
 app.use('/api/battle',require('./routes/battle'));
-// app.use('/api/contacts',require('./routes/contact'))
-// app.use('/api/auth',require('./routes/auth'))
-
 
 
 //server static assets in production
