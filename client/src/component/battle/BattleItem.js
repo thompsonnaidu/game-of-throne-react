@@ -27,16 +27,29 @@ let BattleItem=({battle_info})=> {
                         <span><i className="fas fa-map-marker-alt"></i> {battle_info.location}</span> <br/>
                         <div ><i className="far fa-calendar"></i> {battle_info.year}</div>
                     </div>
+                    <div className="cs-battle-number">
+                        <span> {battle_info.battle_number}</span>
+                    </div>
+                    
                 </div>
                 
                 <div className="card-body">
                         <h5 className="card-title">{battle_info.name}</h5>
-                        <p className="card-text"><span><i className="fas fa-crown"></i> </span>{battle_info.attacker_outcome && battle_info.attacker_outcome==="win"?(battle_info.attacker_king):(battle_info.defender_king)} {battle_info.attacker_commander && (
-                battle_info.attacker_commander.map((commander,index)=>{
-                    return (<li key={index}>{commander}</li>);
-                })
-                )}</p>
-                        <a href="#" class="btn btn-primary">Know more</a> {battle_info.attacker_outcome}
+                        <h6 class="card-subtitle mb-2 text-muted">{battle_info.attacker_king?battle_info.attacker_king:"N/A"} vs {battle_info.defender_king?battle_info.defender_king:"N/A"}</h6>
+                        <p className="card-text">
+                            <div>
+                               <span>
+                                    <i className="fas fa-users"></i> {battle_info.attacker_commander && battle_info.attacker_commander!==null && battle_info.attacker_commander.join(',')}
+                               </span> 
+                            </div>
+                            <div>
+                                <span>
+                                    <i className="fas fa-users" data-toggle="tooltip" data-placement="right"></i> {battle_info.defender_commander && battle_info.defender_commander!==null && battle_info.defender_commander.join(',')}
+                                </span>
+                            </div>
+                            
+                            <span><i className="fas fa-trophy"></i> </span>{battle_info.attacker_outcome && battle_info.attacker_outcome==="win"?(battle_info.attacker_king):(battle_info.defender_king)}</p>
+                        <a href="#" className="btn btn-primary">Know more</a> 
                 </div>
             </div>
         </div>

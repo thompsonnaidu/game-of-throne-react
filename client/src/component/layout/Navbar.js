@@ -10,16 +10,13 @@ const Navbar = ({ title ,icon }) =>{
             <li className="nav-item">
                 <Link className="nav-link" to="/Home">Home</Link>
             </li>
-            <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
-            </li>
         </Fragment>
     );
 
     return (
         <nav className="navbar navbar-expand-md bg-primary navbar-dark">
             {/* <!-- Brand --> */}
-    <span className={icon+" navbar-brand"} ><img src="https://img.icons8.com/color/48/000000/house-stark.png"/> {title} </span>
+    <span className=" navbar-brand" ><img src="https://img.icons8.com/color/48/000000/house-stark.png"/> {title} </span>
 
             {/* <!-- Toggler/collapsibe Button --> */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

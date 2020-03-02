@@ -51,6 +51,7 @@ router.get('/search',async (req,res)=>{
         }
         console.log(searchQuery);
         const battle_list= await Battle.find(searchQuery);
+        battle_list.sort((a,b)=>a.battle_number-b.battle_number);
         res.json({battles:battle_list});
     }catch(error){
         console.log(error);

@@ -9,7 +9,6 @@ const Home=() => {
     
     return (
         <div>
-            <h2>Hi this is home</h2>
             <AutoTextBox location={suggestion}/>
             <Battle/>
         </div>
