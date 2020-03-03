@@ -20,13 +20,13 @@ Screenshot's
        Screen 1
        <img src="https://github.com/thompsonnaidu/game-of-throne-react/blob/master/screenshots/desktop-1.PNG">
 
-       Screen 2
-       <img src="https://github.com/thompsonnaidu/game-of-throne-react/blob/master/screenshots/desktop-2.PNG">
+      Screen 2
+      <img src="https://github.com/thompsonnaidu/game-of-throne-react/blob/master/screenshots/desktop-2.PNG">
  
  - Mobile:
       Screen 1
-      <img src="https://github.com/thompsonnaidu/game-of-throne-react/blob/master/screenshots/mobile-1.PNG">
+      <img src="https://github.com/thompsonnaidu/game-of-throne-react/blob/master/screenshots/mobile-1.png">
 
       Screen 2
-      <img src="https://github.com/thompsonnaidu/game-of-throne-react/blob/master/screenshots/mobile-1.PNG">
+      <img src="https://github.com/thompsonnaidu/game-of-throne-react/blob/master/screenshots/mobile-1.png">
    
