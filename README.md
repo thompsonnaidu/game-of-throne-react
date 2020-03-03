@@ -14,3 +14,12 @@ Battle API Information
 
     3. /search: get the data with all applied filters for king,type and location
        method: "GET"
+
+Screenshot's
+ - Desktop:
+   [Screen 1](./screenshots/desktop-1.PNG)
+   [Screen 2](./screenshots/desktop-2.PNG)
+ 
+ - Mobile:
+   [Screen 1](./screenshots/mobile-1.PNG)
+   [Screen 2](./screenshots/mobile-2.PNG)
