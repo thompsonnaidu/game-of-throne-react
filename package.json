@@ -20,7 +20,7 @@
     "concurrently": "^5.1.0",
     "config": "^3.2.6",
     "csv-parser": "^2.3.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.9.2"
   }
 }
